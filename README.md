@@ -33,9 +33,8 @@ Ce programme va automatiquement :
 
 🛠️ ÉTAPE 3 — Télécharger EdgeDriver
 ---
-
 EdgeDriver permet au script de contrôler le navigateur Edge.
----
+
 ```
 -> Ouvrir Microsoft Edge
 -> Dans la barre d'adresse, taper : edge://settings/help et appuyer sur Entrée
@@ -48,7 +47,6 @@ EdgeDriver permet au script de contrôler le navigateur Edge.
 ```
 C:\Users\VotreNom\Downloads\edgedriver_win64\
 ```
----
 
 🛠️ ÉTAPE 4 — Ouvrir le script dans PyCharm
 ---
@@ -58,7 +56,6 @@ C:\Users\VotreNom\Downloads\edgedriver_win64\
 -> Naviguer jusqu'au fichier chatgpt_image_bot.py et l'ouvrir
 -> PyCharm va afficher le code du script
 ```
----
 
 🛠️ ÉTAPE 5 — Installer la bibliothèque Selenium
 ---
@@ -73,7 +70,6 @@ Selenium est l'outil qui permet de contrôler le navigateur automatiquement.
 python -m pip install selenium
 ```
 Attendre que l'installation se termine (quelques secondes)
----
 
 🛠️ ÉTAPE 6 — Modifier la configuration du script
 ---
@@ -99,7 +95,6 @@ EDGE_DRIVER_PATH = r"C:\Users\VotreNom\Downloads\edgedriver_win64\msedgedriver.e
 Remplacer par le chemin où vous avez placé le fichier msedgedriver.exe à l'Étape 3.
 ```
 ⚠️ Remplacer VotreNom par votre vrai nom d'utilisateur Windows dans tous les chemins.
----
 
 🛠️ ÉTAPE 7 — Créer un profil Edge dédié et se connecter à ChatGPT
 ---
@@ -110,7 +105,6 @@ Cette étape se fait une seule fois.
 ```
    powershell
 ```
-
 Dans la fenêtre PowerShell qui s'ouvre, taper exactement ceci et appuyer sur Entrée :
 ```
    Start-Process "msedge.exe" "--user-data-dir=C:\EdgeAutomationProfile"
@@ -121,14 +115,14 @@ Une nouvelle fenêtre Edge va s'ouvrir
 -> Une fois connecté, fermer complètement cette fenêtre Edge
 ```
 ✅ Le profil est maintenant sauvegardé. Le script utilisera ce profil à chaque fois.
----
 
 🛠️ ÉTAPE 8 — Préparer vos images
 ---
+```
 -> Mettre toutes vos images (JPG, JPEG, PNG, etc.) dans le dossier que vous avez indiqué à l'Étape 6 
 -> Vérifier que le dossier ne contient que des images (pas d'autres fichiers)
 -> Creer un sous-dossier "used" dans le dossier qui contient les images ci-dessus.
----
+```
 
 ▶️ ÉTAPE 9 — Lancer le script
 ---
@@ -148,7 +142,6 @@ Dans le terminal en bas de PyCharm, vous verrez l'avancement :
      ⏳  Next image in: 24:59
 ```
 Ne pas fermer PyCharm ni la fenêtre Edge pendant que le script tourne
----
 
 ⏹️ COMMENT ARRÊTER LE SCRIPT
 ---
@@ -176,6 +169,6 @@ Si vous voulez utiliser un autre compte :
 -> Se connecter avec le nouveau compte dans la fenêtre qui s'ouvre
 -> Fermer la fenêtre Edge
 -> Relancer le script normalement.
-```
----
+
+
 
