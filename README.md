@@ -9,7 +9,7 @@ Ce programme va automatiquement :
 ---
 
 ##🛠️ ÉTAPE 1 — Installer Python
----
+
 ```
 -> Aller sur https://www.python.org/downloads/
 -> Cliquer sur le gros bouton "Download Python"
@@ -21,7 +21,7 @@ Ce programme va automatiquement :
 ---
 
 ##🛠️ ÉTAPE 2 — Installer PyCharm
----
+
 ```
 -> Aller sur https://www.jetbrains.com/pycharm/download/
 -> Télécharger la version Community (gratuite) — cliquer sur "Download" sous "Community"
@@ -32,7 +32,7 @@ Ce programme va automatiquement :
 --- 
 
 ##🛠️ ÉTAPE 3 — Télécharger EdgeDriver
----
+
 
 EdgeDriver permet au script de contrôler le navigateur Edge.
 ---
@@ -51,7 +51,7 @@ C:\Users\VotreNom\Downloads\edgedriver_win64\
 ---
 
 ##🛠️ ÉTAPE 4 — Ouvrir le script dans PyCharm
----
+
 ```
 -> Lancer PyCharm
 -> Sur l'écran d'accueil, cliquer "Open"
@@ -61,7 +61,7 @@ C:\Users\VotreNom\Downloads\edgedriver_win64\
 ---
 
 ##🛠️ ÉTAPE 5 — Installer la bibliothèque Selenium
---- 
+
 Selenium est l'outil qui permet de contrôler le navigateur automatiquement.
 
 ```
@@ -77,7 +77,7 @@ Attendre que l'installation se termine (quelques secondes)
 
 ##🛠️ ÉTAPE 6 — Modifier la configuration du script
 En haut du fichier, il y a une section CONFIGURATION. Il faut modifier 3 lignes :
----
+
 ```
 🔹 Ligne 1 — Le dossier contenant vos images
 IMAGES_FOLDER = r"C:\Users\VotreNom\Downloads\VosDossierImages"
@@ -102,7 +102,7 @@ Remplacer par le chemin où vous avez placé le fichier msedgedriver.exe à l'É
 
 ##🛠️ ÉTAPE 7 — Créer un profil Edge dédié et se connecter à ChatGPT
 Cette étape se fait une seule fois.
----
+
 -> Appuyer sur les touches Windows + R en même temps
 -> Une petite fenêtre s'ouvre — taper exactement ceci et appuyer sur Entrée :
 ```
@@ -122,14 +122,14 @@ Une nouvelle fenêtre Edge va s'ouvrir
 ---
 
 ##🛠️ ÉTAPE 8 — Préparer vos images
----
+
 -> Mettre toutes vos images (JPG, JPEG, PNG, etc.) dans le dossier que vous avez indiqué à l'Étape 6 
 -> Vérifier que le dossier ne contient que des images (pas d'autres fichiers)
 -> Creer un sous-dossier "used" dans le dossier qui contient les images ci-dessus.
 ---
 
 ##▶️ ÉTAPE 9 — Lancer le script
----
+
 ⚠️ Fermer toutes les fenêtres Edge ouvertes avant de lancer.
 ```
 Dans PyCharm, cliquer sur le bouton ▶ (triangle vert) en haut à droite
